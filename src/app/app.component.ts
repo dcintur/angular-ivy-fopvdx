@@ -1,10 +1,7 @@
-import { Component, VERSION } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
-  selector: 'my-app',
-  templateUrl: './app.component.html',
-  styleUrls: [ './app.component.css' ]
+  selector: 'zero-config',
+  templateUrl: 'zero-config.component.html'
 })
-export class AppComponent  {
-  name = 'Angular ' + VERSION.major;
-}
+export class ZeroConfigComponent {}
